@@ -1,1 +1,1 @@
-# [lemopo.cc]:	http://lemopo.cc
+# [lemopo.cc]:(http://lemopo.cc)
