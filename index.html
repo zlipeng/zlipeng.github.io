@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Plane</title>
-  <link rel="stylesheet" href="css/main.css">
-  <script src="js/three.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>test</title>
+	<link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+	<script src="http://vjs.zencdn.net/4.12/video.js"></script>
 </head>
 <body>
-  <div id="world">
-
-  </div>
-  <script src="js/main.js"></script>
-  <script>
-  	// From https://tympanus.net/codrops/2016/04/26/the-aviator-animating-basic-3d-scene-threejs/
-  	console.log('Thanks Karim Maaloul.');
-  	console.log('https://tympanus.net/codrops/2016/04/26/the-aviator-animating-basic-3d-scene-threejs/');
-  </script>
+	<video id="videotest" playsinline webkit-playsinline autoplay>
+		<source src="./123.mp4" type="video/mp4" />
+	</video>
 </body>
+<script type="text/javascript">
+    document.addEventListener("WeixinJSBridgeReady", function (){ 
+    video.play();
+    video.pause();
+}, false)
+</script>
 </html>
