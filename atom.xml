@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Leo]]></title>
-  <link href="https://blog.leo-no.me/atom.xml" rel="self"/>
-  <link href="https://blog.leo-no.me/"/>
-  <updated>2018-09-04T14:43:01+08:00</updated>
-  <id>https://blog.leo-no.me/</id>
+  <link href="https://zlipeng.github.io/atom.xml" rel="self"/>
+  <link href="https://zlipeng.github.io/"/>
+  <updated>2018-09-04T14:59:42+08:00</updated>
+  <id>https://zlipeng.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
     
@@ -13,10 +13,23 @@
   <generator uri="http://www.mweb.im/">MWeb</generator>
   
   <entry>
+    <title type="html"><![CDATA[MWeb发布文章]]></title>
+    <link href="https://zlipeng.github.io/15360441943951.html"/>
+    <updated>2018-09-04T14:56:34+08:00</updated>
+    <id>https://zlipeng.github.io/15360441943951.html</id>
+    <content type="html"><![CDATA[
+<p><img src="media/15360441943951/37245.png" alt="37245"/></p>
+
+<p>图片插入</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[js new Date()在苹果Safari上的bug]]></title>
-    <link href="https://blog.leo-no.me/15360410696987.html"/>
+    <link href="https://zlipeng.github.io/15360410696987.html"/>
     <updated>2018-09-04T14:04:29+08:00</updated>
-    <id>https://blog.leo-no.me/15360410696987.html</id>
+    <id>https://zlipeng.github.io/15360410696987.html</id>
     <content type="html"><![CDATA[
 <p><code>const d = ‘2018-08-10 12:30:30’</code><br/>
 <code>const date = new Date(d)</code></p>
