@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Leo]]></title>
+  <link href="https://blog.leo-no.me/atom.xml" rel="self"/>
+  <link href="https://blog.leo-no.me/"/>
+  <updated>2018-09-04T14:43:01+08:00</updated>
+  <id>https://blog.leo-no.me/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[js new Date()在苹果Safari上的bug]]></title>
+    <link href="https://blog.leo-no.me/15360410696987.html"/>
+    <updated>2018-09-04T14:04:29+08:00</updated>
+    <id>https://blog.leo-no.me/15360410696987.html</id>
+    <content type="html"><![CDATA[
+<p><code>const d = ‘2018-08-10 12:30:30’</code><br/>
+<code>const date = new Date(d)</code></p>
+
+<p>这种做法在大部分情况下都是没问题的，但是在iPhone环境下，<code>date</code> 为 <code>NaN</code>。</p>
+
+<p>解决办法是将 <code>d</code> 格式化为 <code>YYYY/MM/DD HH:mm:ss</code> 格式。</p>
+
+<h1 id="toc_0">技术</h1>
+
+]]></content>
+  </entry>
+  
+</feed>
