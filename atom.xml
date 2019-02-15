@@ -4,13 +4,24 @@
   <title><![CDATA[Leo]]></title>
   <link href="https://zlipeng.github.io/atom.xml" rel="self"/>
   <link href="https://zlipeng.github.io/"/>
-  <updated>2018-09-04T14:59:42+08:00</updated>
+  <updated>2019-02-15T18:16:33+08:00</updated>
   <id>https://zlipeng.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[2019]]></title>
+    <link href="https://zlipeng.github.io/15502257718940.html"/>
+    <updated>2019-02-15T18:16:11+08:00</updated>
+    <id>https://zlipeng.github.io/15502257718940.html</id>
+    <content type="html"><![CDATA[
+<p><code>loading...</code></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MWeb发布文章]]></title>
@@ -26,7 +37,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[js new Date()在苹果Safari上的bug]]></title>
+    <title type="html"><![CDATA[js new Date()在Safari上的bug]]></title>
     <link href="https://zlipeng.github.io/15360410696987.html"/>
     <updated>2018-09-04T14:04:29+08:00</updated>
     <id>https://zlipeng.github.io/15360410696987.html</id>
@@ -34,11 +45,9 @@
 <p><code>const d = ‘2018-08-10 12:30:30’</code><br/>
 <code>const date = new Date(d)</code></p>
 
-<p>这种做法在大部分情况下都是没问题的，但是在iPhone环境下，<code>date</code> 为 <code>NaN</code>。</p>
+<p>这种做法在大部分情况下都是没问题的，但是在ios环境下，<code>date</code> 为 <code>NaN</code>。</p>
 
 <p>解决办法是将 <code>d</code> 格式化为 <code>YYYY/MM/DD HH:mm:ss</code> 格式。</p>
-
-<h1 id="toc_0">技术</h1>
 
 ]]></content>
   </entry>
